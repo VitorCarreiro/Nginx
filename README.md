@@ -3,6 +3,7 @@
 **First thing first update your machine** ➡️ *apt update && apt upgrade -y*
 
 ✔️**Install nginx and ssl-cert**
+
 ⬇️
 
 *apt install nginx*
@@ -18,6 +19,7 @@
 *cp default secure*
 
 *nano secure*
+
 ⏬
 
 *Remove both :80 lines*
