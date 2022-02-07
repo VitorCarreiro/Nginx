@@ -54,7 +54,7 @@
 
 ✔️**And your done!
 
-Now check if you have everything working**
+**Now check if you have everything working**
 
 *systemctl restart nginx*
 
