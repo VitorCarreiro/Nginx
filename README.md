@@ -52,7 +52,7 @@
 
 *ln -s /etc/nginx/sites-available/secure secure*
 
-✔️**And your done!
+✔️**And your done!**
 
 **Now check if you have everything working**
 
