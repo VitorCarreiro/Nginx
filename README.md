@@ -1,6 +1,6 @@
 # Nginx configuration for ubuntu.
 
-**First thing first update your machine** ➡️ *apt update && apt upgrade -y*
+**First things first update your machine** ➡️ *apt update && apt upgrade -y*
 
 ✔️**Install nginx and ssl-cert**
 
