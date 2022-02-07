@@ -4,6 +4,7 @@
 
 ✔️**Install nginx and ssl-cert**
 ⬇️
+
 *apt install nginx*
 
 *systemctl start nginx*
@@ -14,48 +15,48 @@
 
 ✔️**Make a copy of default so that if you make a mistake you can always go back to the default settings.**
 
-*cp default secure
+*cp default secure*
 
-nano secure*
+*nano secure*
 ⏬
 
-*Remove both :80 lines
+*Remove both :80 lines*
 
-And remove # from both :443 lines*
+*And remove # from both :443 lines*
 
 ✔️**Add both these lines below snippets.conf**
 
-*ssl_certificate /etc/ssl/certs/(yourcrt.crt);
+*ssl_certificate /etc/ssl/certs/(yourcrt.crt);*
 
-ssl_certificate_key /etc/ssl/private/(yourkey.key);*
+*ssl_certificate_key /etc/ssl/private/(yourkey.key);*
 
 ✔️**Change**
 
-*root /var/www/html;
+*root /var/www/html;*
 
-to ⬇️
+**to** ⬇️
 
-root /var/www/htmls;*
+*root /var/www/htmls;*
 
 ✔️**Add your certificates to location below**
 
-*/etc/ssl/certs/yourcrt.crt
+*/etc/ssl/certs/yourcrt.crt*
 
-/etc/ssl/private/yourkey.key*
+*/etc/ssl/private/yourkey.key*
 
 ✔️**Create a soft link of the secure file**
 
-*cd /etc/nginx/sites-enabled/
+*cd /etc/nginx/sites-enabled/*
 
-ln -s /etc/nginx/sites-available/secure secure*
+*ln -s /etc/nginx/sites-available/secure secure*
 
 ✔️**And your done!
 
 Now check if you have everything working**
 
-*systemctl restart nginx
+*systemctl restart nginx*
 
-systemctl status nginx*
+*systemctl status nginx*
 
 
 
