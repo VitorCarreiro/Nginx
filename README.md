@@ -14,7 +14,7 @@
 
 ✔️**Go to** ➡️ *cd /etc/nginx/sites-available/* ⬅️
 
-✔️**Make a copy of default so that if you make a mistake you can always go back to the default settings.**
+**Make a copy of default so that if you make a mistake you can always go back to the default settings.**
 
 *cp default secure*
 
@@ -26,13 +26,13 @@
 
 *And remove # from both :443 lines*
 
-✔️**Add both these lines below snippets.conf**
+**Add both these lines below snippets.conf**
 
 *ssl_certificate /etc/ssl/certs/(yourcrt.crt);*
 
 *ssl_certificate_key /etc/ssl/private/(yourkey.key);*
 
-✔️**Change**
+**Change**
 
 *root /var/www/html;*
 
@@ -40,7 +40,7 @@
 
 *root /var/www/htmls;*
 
-✔️**Add your certificates to location below**
+**Add your certificates to location below**
 
 */etc/ssl/certs/yourcrt.crt*
 
