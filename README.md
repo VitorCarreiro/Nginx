@@ -5,7 +5,9 @@
 **Install nginx and ssl-cert**
 ⬇️
 *apt install nginx
+
 systemctl start nginx
+
 apt install ssl-cert*
 
 **Go to** ➡️ *cd /etc/nginx/sites-available/* ⬅️
