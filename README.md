@@ -24,7 +24,7 @@
 
 *Remove both :80 lines*
 
-*And remove # from both :443 lines*
+*And uncomment both :443 lines*
 
 **Add both these lines below snippets.conf**
 
